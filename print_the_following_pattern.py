@@ -1,5 +1,8 @@
 n=int(input())
-for i in range(65,65+n):
+for i in range(0,n):
     for j in range(0,n):
-        print(chr(i),end=" ")
+        if i==j or j==n-i-1:
+            print("x",end="")
+        else:
+            print("0",end="")
     print()
