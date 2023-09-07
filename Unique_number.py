@@ -6,6 +6,6 @@ while n>0:
     n=n//10
 s=set(l)
 if len(l)==len(s):
-    print("Unique Number");
+    print("Unique Number")
 else:
-    print("Not Unique Number");
+    print("Not Unique Number")
