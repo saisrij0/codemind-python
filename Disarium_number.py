@@ -1,14 +1,14 @@
 n=int(input())
-x=n
+m=n
 s=str(n)
-su=0
 l=len(s)
-while n!=0:
+re=0
+while n>0:
     r=n%10
-    su=su+(r**l)
+    re=re+r**l
     n=n//10
     l-=1
-if su==x:
+if re==m:
     print(True)
 else:
     print(False)
